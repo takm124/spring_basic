@@ -82,3 +82,63 @@
     - 기능 개발도 중요하지만 개발시에 가장 우선시 되는 것이 환경세팅이다. 혼자 프로젝트도 진행해보았지만, 이 부분을 깊게 공부해본적은 없는 것 같다. 시간을 내서 봐야할 필요성을 느낀다.
 
 <br>
+
+
+  >2022.08.08
+
+  - What I Learn
+    - 진도 : 싱글톤 컨테이너, 컴포넌트 스캔
+    - 포인트
+      - 싱글톤이 사용되어야 하는 이유
+      - @Configuration 작동원리
+      - Spring vs SpringBoot
+      - @Component, @Controller, @Repository, @Service 차이점
+
+<br>
+
+- 고민해볼 수 있는것
+  - 싱글톤의 장단점 -> 싱글톤이 안티패턴이라고 불리는 이유는?
+  - 스프링의 각 어노테이션들의 역할에 대한 이해
+  - @Autowired 방식 DI의 문제점
+  - @Controller와 @Service의 실질적으로 처리할 수 있는 기능적 차이가 있는지
+
+<br>
+
+  >2022.08.20
+
+  - What I Learn
+    - 진도 : 의존관계 자동주입
+    - 포인트
+      - 의존 관계 주입 방법들과 각각의 특징
+      - 생성자 주입을 권장하는 이유
+      - Lombok 활용
+      - @Qualifier, @Primary
+      - Annotation 활용
+      
+
+<br>
+
+- 고민해볼 수 있는것
+  - 의존 관계 주입시 필드 주입을 권장하지 않는 이유 
+
+<br>
+
+
+  >2022.08.22
+
+  - What I Learn
+    - 진도 : 서블릿
+    - 포인트
+      - logging.level.org.apache.coyote.http11 = debug 사용  // 개발단계에서만 사용하기 
+      - 서블릿이란 무엇인가
+      - 웰컴 페이지
+      - HTTP 요청 req, rep 구조
+
+<br>
+
+- 고민해볼 수 있는것
+  - 이번 서블릿 강의는 기본적인 HTTP 사용법에 대한 강의 <br>
+    예전에 정리했던 http 자료 복습하기
+  - EOFException 이란?
+
+<br>
