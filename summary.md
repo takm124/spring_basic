@@ -142,3 +142,37 @@
   - EOFException 이란?
 
 <br>
+
+
+ >2022.08.23
+
+  - What I Learn
+    - 진도 : 서블릿, JSP, MVC 패턴
+    - 포인트
+      - 기본적인 JSON 파싱 (jackson 사용)
+      - HttpServletResponse 메시지 컨트롤
+      - Response header들 이해
+      - application/json과 charset=utf-8 // 이거 현업에서 은근히 많이 보임
+      - 동시성에 대한 고민
+      - 템플릿 엔진의 필요성
+      - JSP 기본적인 활용법 -> 템플릿 엔진의 큰 틀은 비슷하다.
+      - 서블릿과 JSP의 한계
+      - MVC 패턴이란? (장단점)
+      - WEB-INF 밑에 있는 자원은 외부에서 호출해도 호출되지 않는다.
+      - JSP의 프로퍼티 접근법
+      - MVC 패턴의 한계
+
+
+<br>
+
+- 고민해볼 수 있는것
+  - 클라이언트 요청 -> request -> 분석 -> response flow를 세세하게 이해해보기
+  - Cache-Control header와 실무에서 활용도 -> 캐시 활용이 중요한 이유는?
+  - ConcurrentHashMap과 AtomicLong이란?
+  - JSP에서 request, response를 그냥 사용할 수 있는 이유
+  - forward와 sendRedirect 차이 (https://mangkyu.tistory.com/51)
+    - 추후에 중복 POST 이슈와 연관되어 있음(새로고침 이슈, PRG)
+    - 새로고침에 대한 이해도 필요함
+
+
+<br>
