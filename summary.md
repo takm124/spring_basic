@@ -196,3 +196,19 @@
 
 
 <br>
+
+ >2022.08.26
+
+  - What I Learn
+    - 진도 : 스프링 MVC - 구조이해
+    - 포인트
+      - 기본적인 Spring MVC 활용
+
+
+<br>
+
+- 고민해볼 수 있는것
+  - 기존 강의에서 만들었던 FrontController가 Spring에서 어떻게 적용되었는지
+
+
+<br>
