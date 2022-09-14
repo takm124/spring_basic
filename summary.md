@@ -213,7 +213,7 @@
 
 <br>
 
- >2022.09.13
+ >2022.09.13-14
 
   - What I Learn
     - 진도 : 스프링 MVC - 기본기능
@@ -222,14 +222,20 @@
       - 기본적인 CRUD 요청 방법
       - 기본적인 데이터 매핑 방법 (RequestParam, ModelAttribute)
       - @Data가 지원해주는 것 정도는 암기해두기
-      - 
+      - HttpEntity
+      - RequestBody
+      - ResponseBody
+      - Http 메시지 컨버터
+      - Content-type을 놓치지 말자
 
 
 <br>
 
 - 고민해볼 수 있는것
   - 경로변수, url 파라미터를 각각 언제 사용하는것이 좋을 지
-  - 
+  - ModelAttribute와 RequestBody의 차이점
+  - HTTP 요청시 데이터가 '어떻게' 넘어가는지, 서버에서 '어떻게' 보내주는지
+  - 핸들러 어댑터의 동작원리에 대해 따로 한번 정리해볼것
 
 
 <br>
